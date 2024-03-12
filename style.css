@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.container > * {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#tempLabel {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+label[for="cButton"],
+label[for="fButton"] {
+    display: inline-block; /* Radio düğmeleri ile aynı hizaya getirmek için */
+    margin-right: 10px; /* Aralarında bir boşluk bırakmak için */
+}
